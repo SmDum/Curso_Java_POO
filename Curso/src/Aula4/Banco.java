@@ -112,9 +112,8 @@ public class Banco {
         }
     }
 
-    public void status() {
+    public void estadoAtual() {
         System.out.println("=== DADOS DA CONTA ===");
-        System.out.println("Número: " + this.getNumConta());
         System.out.println("Conta: " + this.getNumConta());
         System.out.println("Tipo: " + this.getTipo());
         System.out.println("Dono: " + this.getDono());
