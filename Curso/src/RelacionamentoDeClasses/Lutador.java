@@ -1,6 +1,7 @@
 package RelacionamentoDeClasses;
 
 public class Lutador {
+
     private String nome;
     private String nacionalidade;
     private int idade;
