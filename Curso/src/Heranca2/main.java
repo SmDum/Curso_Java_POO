@@ -16,6 +16,17 @@ public class main {
         a1.setMatricula(1111);
         a1.pagarMensalidade();
         System.out.println(a1.toString());
+
+        Bolsista b1 = new Bolsista();
+        b1.setNome("Jubileu");
+        b1.setIdade(17);
+        b1.setSexo("M");
+        b1.setBolsa(12.5f);
+        b1.setMatricula(2222);
+        b1.setCurso("Administração");
+        b1.pagarMensalidade();
+        System.out.println(b1.toString());
+
     }
     
 }
